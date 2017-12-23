@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Search Film</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style-index.css" type="text/css">
+</head>
+<body>
+<header class="menu">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/icon-logo.png" style="width: 40%"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-center menu_item">
+                    <li class="active"><a href="#">Phim</a></li>
+                    <li><a href="#">Lịch chiếu</a></li>
+                    <li><a href="#">Cụm Rạp</a></li>
+                    <li><a href="#">Ứng dụng</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<form class="container form-horizontal">
+	<h3>Tìm kiếm phim cùng "2 3 Cốc! Zoooo!"</h3><hr>
+	<div class="form-group row">
+		<div class="col-md-3"></div>
+		<label class="col-md-1" for="nameFilm">Tên Phim</label>
+		<div class="col-md-3">
+			<input type="text" class="form-control" id="nameFilm" placeholder="Phim cần tìm">
+		</div>
+	</div>
+	<div class="form-group row">
+		<div class="col-md-3"></div>
+		<label class="col-md-1" for="theater">Rạp chiếu</label>
+		<div class="col-md-3">
+			<select class="form-control" id="theater">
+        		<option>CGV</option>
+        		<option>Lotte</option>
+		        <option>3</option>
+		        <option>4</option>
+		        <option>5</option>    
+      		</select>			 
+		</div>
+	</div>
+	<div class="form-group row">
+		<div class="col-md-3"></div>
+		<label for="time" class="col-md-1">Giờ chiếu</label>
+		<div class="col-md-6">
+			<div class="col-md-2">
+				<input type="text" class="form-control"  placeholder="Giờ">
+			</div>
+			<div class="col-md-2 ">
+				<input type="text" class="form-control"  placeholder="Phút">
+			</div>
+			<label for="time" class="col-md-1"> Đến</label>
+			<div class="col-md-2 fix-time">
+				<input type="text" class="form-control"  placeholder="Giờ">
+			</div>
+			<div class="col-md-2 ">
+				<input type="text" class="form-control"  placeholder="Phút">
+			</div>
+		</div>
+	</div>
+	<div class="form-group row">
+		<div class="col-md-3"></div>
+		<label class="col-md-1" for="catergory">Thể loại</label>
+		<div class="col-md-5">
+			<label class="checkbox-inline">
+      			<input type="checkbox" value="">Hành động
+    		</label>
+    		<label class="checkbox-inline">
+     			<input type="checkbox" value="">Tâm lý - Tình cảm
+    		</label>
+   			<label class="checkbox-inline">
+      			<input type="checkbox" value="">Cổ trang - Thần thoại
+    		</label>
+    		<label class="checkbox-inline">
+      			<input type="checkbox" value="">Hoạt hình
+    		</label>
+		</div>
+	</div>
+	<div class="form-group row">
+		<div class="col-md-4"></div>
+		<button type="submit" class="btn btn-primary">Tìm kiếm</button>
+		<button type="reset" class="btn btn-primary">Hủy bỏ</button>
+	</div>
+</form>
+
+<section class="container">
+	<h3>Kết quả tìm kiếm</h3><hr>
+	<div class="row">
+		<div class="col-md-2 search-result">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim2.jpg" style="width: 100%"></a>
+			<span class="type">3D - C16 - 7.5 IMDb</span>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim3.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim4.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim5.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim6.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim7.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim8.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim9.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim10.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim11.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim12.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		<div class="col-md-2">
+			<a href="#"><img src="img/phim_sap_chieu/sc_phim7.jpg" style="width: 100%"></a>
+			<a href="#"><h4>Phim 1</h4></a>
+		</div>
+		
+	</div>		
+	<div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8">
+            <ul class="pagination">
+                <li class="disabled"><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 "></div>
+    </div>
+</section>
+ <!-- chuyển lên đầu trang -->
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Đầu trang</button>
+
+  <!-- footer -->
+  <div class="panel-footer">
+    <div class="container footer">
+        <hr>
+        <section>
+            <div class="row">
+                <div class="col-md-3">
+                    <p>ĐỐI TÁC</p>
+                    <div class="row iconDT">
+                        <div class="col-md-3"><a href="#"><img src="img/icon_doitac/icon1.png"
+                                                               style="width: 60%"></a></div>
+                        <div class="col-md-3"><a href="#"><img src="img/icon_doitac/icon2.png"
+                                                               style="width: 60%"></a></div>
+                        <div class="col-md-3"><a href="#"><img src="img/icon_doitac/icon3.png"
+                                                               style="width: 60%"></a></div>
+                        <div class="col-md-3"><a href="#"><img src="img/icon_doitac/icon4.png"
+                                                               style="width: 60%"></a></div>
+                        <div class="col-md-3"><a href="#"><img src="img/icon_doitac/icon5.png"
+                                                               style="width: 60%"></a></div>
+                        <div class="col-md-3"><a href="#"><img src="img/icon_doitac/icon6.png"
+                                                               style="width: 60%"></a></div>
+                        <div class="col-md-3"><a href="#"><img src="img/icon_doitac/icon7.png"
+                                                               style="width: 60%"></a></div>
+                        <div class="col-md-3"><a href="#"><img src="img/icon_doitac/icon8.png"
+                                                               style="width: 60%"></a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <p>TEAM PROJECT</p>
+                    <p>Vũ Đức Đông</p>
+                    <p>Trần Quốc Toản</p>
+                    <p>Nguyễn Duy Nam</p>
+                    <p>Nguyễn Thanh Hân</p>
+                    <p>Hoàng Đình Toàn</p>
+                </div>
+                <div class="col-md-3">
+                    <p>FPT APTECH HÀ NỘI</p>
+                    <p>Đại học FPT, Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm</p>
+                    <p>Điện thoại:(024) 7300 8855 - (024) 6656 5662</p>
+                    <p>Email: aptech.hn@fpt.edu.vn</p>
+                    <p>Hotline: 0976 199 772 </p>
+                </div>
+                <div class="col-md-2">
+                    <p>MOBILE APP</p>
+                    <div class="row iconDT">
+                        <div class="col-md-5">
+                            <a href="#">
+                                <img src="img/icon_doitac/icon-android.png" style="width: 70%;">
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <a href="#">
+                                <img src="img/icon_doitac/icon-apple.png" style="width: 70%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <p>SOCIAL</p>
+                    <div class="row iconDT">
+                        <div class="col-md-5">
+                            <a href="#">
+                                <img src="img/icon_doitac/if_social_facebook_box_white_60824.png" style="width: 70%;">
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <a href="#">
+                                <img src="img/icon_doitac/logo-zalo.png" style="width: 70%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<script>
+	// check thành phố
+	function choice(city) {
+        var arr = city.split("_");
+        var chosse = "";
+        for (var index in arr){
+            chosse+=arr[index]+" ";
+        }
+        document.getElementById("city").innerHTML = chosse.trim()+"  <span class=\"caret\"></span>";
+
+        var url = document.getElementsByClassName("fix");
+        for(var i in url){
+            var sp = url[i].href.split("cityName=");
+            url[i].href = sp[0]+"cityName="+chosse.trim();
+        }
+    }
+
+    // chuyển lên đầu trang
+     window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
